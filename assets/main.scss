@@ -25,7 +25,24 @@ body {
   background: linear-gradient(90deg, rgba(14,165,233,.08), rgba(59,130,246,.08));
   border-bottom: 1px solid #e2e8f0;
 }
-.site-title { font-weight: 800; }
+* Header logo beside site title */
+.site-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.45rem;
+}
+
+.site-logo {
+  height: 28px;
+  width: auto;
+}
+
+@media (max-width: 640px) {
+  .site-logo {
+    height: 24px;
+  }
+}
 
 /* Home hero section */
 .home-hero {
