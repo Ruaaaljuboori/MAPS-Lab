@@ -36,7 +36,7 @@ permalink: /people/
       <div class="flip-card-front">
         <img src="{{ '/assets/dylan.jpg' | relative_url }}" alt="Dylan Barker photo">
         <h4>Dylan Barker</h4>
-        <div>MPH Student</div>
+        <div>MPH Student | Graduate Research Assistant</div>
       </div>
 
       <div class="flip-card-back">
