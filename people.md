@@ -24,7 +24,6 @@ permalink: /people/
   </div>
 </div>
 
-## Students
 
 ## Students
 
@@ -77,57 +76,6 @@ permalink: /people/
 </div>
 
 ################################################
-/* ---- FLIP CARDS FOR STUDENTS ---- */
-.flip-card {
-  background-color: transparent;
-  width: 260px;
-  height: 340px;
-  perspective: 1000px;
-  margin: 20px;
-  display: inline-block;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  border-radius: 12px;
-}
-
-.flip-card:hover .flip-card-inner,
-.flip-card:active .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  padding: 20px;
-}
-
-.flip-card-front {
-  background: #fff;
-}
-
-.flip-card-front img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-top: 15px;
-}
-
-.flip-card-back {
-  background: #f8f9fa;
-  transform: rotateY(180deg);
-  overflow-y: auto;
-}
 
 
 
