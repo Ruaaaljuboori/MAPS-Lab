@@ -28,12 +28,12 @@ permalink: /people/
 
 ## Students
 
-<div style="display:flex; flex-wrap:wrap; gap:20px;">
+<div class="student-cards">
 
   <!-- Dylan Barker -->
   <div class="flip-card">
     <div class="flip-card-inner">
-      
+
       <div class="flip-card-front">
         <img src="{{ '/assets/dylan.jpg' | relative_url }}" alt="Dylan Barker photo">
         <h4>Dylan Barker</h4>
@@ -42,67 +42,23 @@ permalink: /people/
 
       <div class="flip-card-back">
         <h4>Dylan Barker</h4>
-        <p>Dylan Barker is a second-year Master of Public Health student at the University of Mississippi with a concentration in Epidemiology. He serves as a Graduate Assistant in the Institute of Child Nutrition’s Data Analytics Lab...</p>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Annina -->
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      
-      <div class="flip-card-front">
-        <img src="{{ '/assets/placeholder.png' | relative_url }}" alt="Annina photo">
-        <h4>Annina Liebner</h4>
-        <div>MPH Student</div>
-      </div>
-
-      <div class="flip-card-back">
-        <h4>Annina Liebner</h4>
-        <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Emily -->
-  <div class="flip-card">
-    <div class="flip-card-inner">
-
-      <div class="flip-card-front">
-        <img src="{{ '/assets/placeholder.png' | relative_url }}" alt="Emily photo">
-        <h4>Emily Welker</h4>
-        <div>MPH Student</div>
-      </div>
-
-      <div class="flip-card-back">
-        <h4>Emily Welker</h4>
-        <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Aminul -->
-  <div class="flip-card">
-    <div class="flip-card-inner">
-
-      <div class="flip-card-front">
-        <img src="{{ '/assets/placeholder.png' | relative_url }}" alt="Aminul photo">
-        <h4>Aminul Apu</h4>
-        <div>MPH</div>
-      </div>
-
-      <div class="flip-card-back">
-        <h4>Aminul Apu</h4>
-        <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+        <p>
+          Dylan Barker is a second-year Master of Public Health student at the University of Mississippi with a concentration in Epidemiology. 
+          He serves as a Graduate Assistant in the Institute of Child Nutrition’s Data Analytics Lab, where he supports research and program evaluation efforts. 
+          His work focuses on social determinants of health, geospatial epidemiology, and chronic and infectious disease disparities in the Deep South. 
+          Dylan has contributed to peer-reviewed publications and presented research at state and national conferences.
+        </p>
+        <p>
+          Beyond his research, he has experience in teaching, mentoring, and leadership. He currently serves as President of the Public Health Student Association. 
+          Looking ahead, Dylan plans to pursue a career as a state epidemiologist.
+        </p>
       </div>
 
     </div>
   </div>
 
 </div>
+
 
 ## Alumni
 
