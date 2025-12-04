@@ -3,12 +3,10 @@
 ---
 
 /* --------------------------------------------------------- */
-/*                           FONT                            */
+/*                       GLOBAL FONT                         */
 /* --------------------------------------------------------- */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 
-/* Minima variables */
 $brand-color: #0ea5e9;
 $text-color: #0f172a;
 $background-color: #f8fafc;
@@ -18,28 +16,31 @@ $grey-color-dark: #475569;
 
 @import "minima";
 
-/* --------------------------------------------------------- */
-/*                      GLOBAL BASE STYLES                   */
-/* --------------------------------------------------------- */
-
 body {
   font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  background: #f8fafc;
+  color: #0f172a;
 }
 
 /* --------------------------------------------------------- */
-/*                      HEADER + TOP NAV                     */
+/*                        CLEAN HEADER                       */
 /* --------------------------------------------------------- */
-
 .site-header {
-  background: linear-gradient(90deg, rgba(14,165,233,.08), rgba(59,130,246,.08));
-  border-bottom: 1px solid #e2e8f0;
+  background: #ffffff !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  padding: 10px 0 !important;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-/* Header logo beside site title */
+/* logo + title inline */
 .site-title {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+  margin: 0;
+  font-weight: 800;
   font-size: 1.45rem;
 }
 
@@ -49,60 +50,35 @@ body {
 }
 
 @media (max-width: 640px) {
-  .site-logo {
-    height: 24px;
-  }
+  .site-logo { height: 24px; }
 }
 
-/* Nav hover */
+/* nav links */
 .site-nav .page-link {
   padding: .25rem .6rem;
   border-radius: 8px;
 }
 
 .site-nav .page-link:hover {
-  background: rgba(14,165,233,.08);
+  background: rgba(14,165,233,.1);
 }
 
 /* --------------------------------------------------------- */
-/*                       HOME HERO AREA                      */
+/*            HOME HERO FIX — prevents header overlap        */
 /* --------------------------------------------------------- */
-
-.home-hero {
-  margin: 1.25rem 0 2rem;
-  padding: 28px 20px;
-  border: 1px solid #e2e8f0;
-  border-radius: 16px;
-  background: linear-gradient(180deg, #ffffff, #f1f5f9);
-  text-align: center;
-}
-
-.home-hero h1 {
-  margin: 0 0 .5rem;
-}
-
-.home-hero p.lead {
-  font-size: 1.06rem;
-  color: #475569;
-}
-
-/* Big homepage logo only */
 .hero-logo {
-  display: block;
-  margin: 0 auto 14px auto;
-  width: clamp(200px, 28vw, 360px);
+  margin-top: 35px !important;
 }
 
 /* --------------------------------------------------------- */
-/*                      PEOPLE PAGE — PI                     */
+/*                      PEOPLE PAGE PI BOX                   */
 /* --------------------------------------------------------- */
-
 .people-hero {
   display: grid;
   grid-template-columns: 128px 1fr;
   gap: 20px;
   align-items: center;
-  margin: 1rem 0 1.5rem;
+  margin: 1rem 0 2rem;
 }
 
 .people-hero img {
@@ -114,99 +90,61 @@ body {
 }
 
 .people-hero .name {
-  margin: 0 0 .25rem;
-  font-weight: 800;
   font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
 }
 
 .people-hero .title {
   font-weight: 700;
-  margin: .1rem 0 .25rem;
+  margin-bottom: 0.2rem;
 }
 
 .people-hero .affil {
   color: #4b5563;
-  margin-bottom: .25rem;
-}
-
-.people-hero .links a {
-  text-decoration: none;
-  border: 1px solid #e5e7f0;
-  padding: .25rem .6rem;
-  border-radius: 999px;
-  margin-right: .4rem;
-  font-size: .9rem;
-}
-
-.people-hero .links a:hover {
-  background: #f9fafb;
+  margin-bottom: 0.3rem;
 }
 
 /* --------------------------------------------------------- */
-/*                  NORMAL CARD GRID (ALUMNI)                */
+/*                        ALUMNI CARDS                       */
 /* --------------------------------------------------------- */
-
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 18px;
-  margin: .75rem 0 2rem;
+  margin: 1.25rem 0 2.5rem;
 }
 
 .card {
-  background: #fff;
+  background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
   padding: 14px 16px;
   box-shadow: 0 1px 2px rgba(0,0,0,.03);
 }
 
-.role {
-  color: #64748b;
-}
+.role { color: #64748b; }
 
 /* --------------------------------------------------------- */
-/*                       DARK MODE STYLE                     */
+/*                     STUDENT FLIP CARDS                    */
 /* --------------------------------------------------------- */
-
-@media (prefers-color-scheme: dark) {
-  body { background: #0b1220; color: #e2e8f0; }
-  .site-header {
-    background: linear-gradient(90deg, rgba(14,165,233,.15), rgba(59,130,246,.15));
-    border-bottom-color:#1e293b;
-  }
-  .home-hero, .card {
-    background:#0f172a;
-    border-color:#1f2937;
-  }
-  .people-hero img { border-color:#1f2937; }
-  a, .btn { color:#7dd3fc; border-color:#1f2937; }
-  .btn:hover { background:#111827; }
-}
-
-/* --------------------------------------------------------- */
-/*                STUDENT FLIP-CARDS (Dylan)                 */
-/* --------------------------------------------------------- */
-
 .student-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  margin: 1.5rem 0 2.5rem;
+  gap: 26px;
+  margin: 1rem 0 3rem;
 }
 
 .flip-card {
-  background-color: transparent;
   width: 280px;
   height: 380px;
   perspective: 1000px;
-  border-radius: 12px;
 }
 
 .flip-card-inner {
-  position: relative;
   width: 100%;
   height: 100%;
+  position: relative;
   transition: transform 0.6s;
   transform-style: preserve-3d;
   border-radius: 12px;
@@ -221,30 +159,63 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  padding: 20px;
   backface-visibility: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  padding: 20px;
-  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Bigger Dylan photo */
-.flip-card-front .dylan-photo {
+/* BIGGER DYLAN PHOTO + centered */
+.flip-card-front img {
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  margin-top: 10px;
   object-fit: cover;
   object-position: 50% 35%;
   border: 2px solid #e5e7eb;
+  margin-top: 12px;
 }
 
+.flip-card-front h4 {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+/* subtitle under name */
+.flip-card-front .subtitle {
+  font-size: 0.95rem;
+  color: #475569;
+  margin-top: 4px;
+}
+
+/* BACK SIDE */
 .flip-card-back {
-  background: #f8f9fa;
   transform: rotateY(180deg);
-  overflow-y: auto;
   text-align: left;
+  background: #f8f9fa;
+  overflow-y: auto;
+}
+
+/* --------------------------------------------------------- */
+/*                        DARK MODE                          */
+/* --------------------------------------------------------- */
+@media (prefers-color-scheme: dark) {
+  body { background: #0b1220; color: #e2e8f0; }
+
+  .site-header {
+    background: #0f172a !important;
+    border-bottom-color: #1f2937 !important;
+  }
+
+  .card, .flip-card-front, .flip-card-back {
+    background: #111827;
+    border-color: #1f2937;
+  }
+
+  a, .btn { color: #7dd3fc; }
 }
