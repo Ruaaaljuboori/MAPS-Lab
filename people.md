@@ -29,7 +29,7 @@ permalink: /people/
 
 <div class="student-cards">
 
-  <!-- Dylan Barker -->
+  <!-- Dylan Barker (FLIP CARD) -->
   <div class="flip-card">
     <div class="flip-card-inner">
 
@@ -42,14 +42,18 @@ permalink: /people/
       <div class="flip-card-back">
         <h4>Dylan Barker</h4>
         <p>
-          Dylan Barker is a second-year Master of Public Health student at the University of Mississippi with a concentration in Epidemiology. 
-          He serves as a Graduate Assistant in the Institute of Child Nutrition’s Data Analytics Lab, where he supports research and program evaluation efforts. 
-          His work focuses on social determinants of health, geospatial epidemiology, and chronic and infectious disease disparities in the Deep South. 
-          Dylan has contributed to peer-reviewed publications and presented research at state and national conferences.
+          Dylan Barker is a second-year Master of Public Health student at the University of Mississippi 
+          with a concentration in Epidemiology. He serves as a Graduate Assistant in the Institute of 
+          Child Nutrition’s Data Analytics Lab, supporting research and program evaluation efforts.
         </p>
         <p>
-          Beyond his research, he has experience in teaching, mentoring, and leadership. He currently serves as President of the Public Health Student Association. 
-          Looking ahead, Dylan plans to pursue a career as a state epidemiologist.
+          His work focuses on social determinants of health, geospatial epidemiology, and chronic and 
+          infectious disease disparities in the Deep South. Dylan has contributed to peer-reviewed 
+          publications and presented research at state and national conferences.
+        </p>
+        <p>
+          He currently serves as President of the Public Health Student Association and plans to pursue 
+          a career as a state epidemiologist.
         </p>
       </div>
 
@@ -58,6 +62,29 @@ permalink: /people/
 
 </div>
 
+<br><br>
+
+<div class="cards">
+
+  <div class="card">
+    <h4>Annina Liebner</h4>
+    <div class="role">MPH Student</div>
+    <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+  </div>
+
+  <div class="card">
+    <h4>Emily Welker</h4>
+    <div class="role">MPH Student</div>
+    <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+  </div>
+
+  <div class="card">
+    <h4>Aminul Apu</h4>
+    <div class="role">MPH</div>
+    <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+  </div>
+
+</div>
 
 ## Alumni
 
@@ -74,16 +101,3 @@ permalink: /people/
     <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
   </div>
 </div>
-
-################################################
-
-
-
-
-
-
-
-
-
-
-
