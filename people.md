@@ -27,13 +27,27 @@ permalink: /people/
 ## Students
 
 <div class="card person">
-  <img class="avatar" src="{{ '/assets/dylan.png' | relative_url }}" alt="Dylan Barker headshot">
+  <img class="avatar" src="{{ '/assets/dylan.jpg' | relative_url }}" alt="Dylan Barker headshot">
+
   <div>
     <h4>Dylan Barker</h4>
     <div class="role">MPH Student</div>
-    <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+
+    <p>
+      Dylan Barker is a second-year Master of Public Health student at the University of Mississippi with a concentration in Epidemiology. 
+      He serves as a Graduate Assistant in the Institute of Child Nutrition’s Data Analytics Lab, where he supports research and program evaluation efforts. 
+      His work focuses on social determinants of health, geospatial epidemiology, and chronic and infectious disease disparities in the Deep South. 
+      Dylan has contributed to peer-reviewed publications and presented research at state and national conferences.
+    </p>
+
+    <p>
+      Beyond his research, he has experience in teaching, mentoring, and leadership. He currently serves as President of the Public Health Student Association, 
+      leading initiatives to foster student engagement and professional development. Looking ahead, Dylan plans to pursue a career as a state epidemiologist, 
+      leading investigations on the causes and spread of diseases to protect and improve population health.
+    </p>
   </div>
 </div>
+
 
 
 
