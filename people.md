@@ -26,49 +26,82 @@ permalink: /people/
 
 ## Students
 
-<div class="card person">
-  <img class="avatar" src="{{ '/assets/dylan.jpg' | relative_url }}" alt="Dylan Barker headshot">
+## Students
 
-  <div>
-    <h4>Dylan Barker</h4>
-    <div class="role">MPH Student</div>
+<div style="display:flex; flex-wrap:wrap; gap:20px;">
 
-    <p>
-      Dylan Barker is a second-year Master of Public Health student at the University of Mississippi with a concentration in Epidemiology. 
-      He serves as a Graduate Assistant in the Institute of Child Nutrition’s Data Analytics Lab, where he supports research and program evaluation efforts. 
-      His work focuses on social determinants of health, geospatial epidemiology, and chronic and infectious disease disparities in the Deep South. 
-      Dylan has contributed to peer-reviewed publications and presented research at state and national conferences.
-    </p>
+  <!-- Dylan Barker -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      
+      <div class="flip-card-front">
+        <img src="{{ '/assets/dylan.jpg' | relative_url }}" alt="Dylan Barker photo">
+        <h4>Dylan Barker</h4>
+        <div>MPH Student</div>
+      </div>
 
-    <p>
-      Beyond his research, he has experience in teaching, mentoring, and leadership. He currently serves as President of the Public Health Student Association, 
-      leading initiatives to foster student engagement and professional development. Looking ahead, Dylan plans to pursue a career as a state epidemiologist, 
-      leading investigations on the causes and spread of diseases to protect and improve population health.
-    </p>
-  </div>
-</div>
+      <div class="flip-card-back">
+        <h4>Dylan Barker</h4>
+        <p>Dylan Barker is a second-year Master of Public Health student at the University of Mississippi with a concentration in Epidemiology. He serves as a Graduate Assistant in the Institute of Child Nutrition’s Data Analytics Lab...</p>
+      </div>
 
-
-
-
-
-  <div class="card">
-    <h4>Annina Liebner</h4>
-    <div class="role">MPH Student</div>
-    <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+    </div>
   </div>
 
-  <div class="card">
-    <h4>Emily Welker</h4>
-    <div class="role">MPH Student</div>
-    <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+  <!-- Annina -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      
+      <div class="flip-card-front">
+        <img src="{{ '/assets/placeholder.png' | relative_url }}" alt="Annina photo">
+        <h4>Annina Liebner</h4>
+        <div>MPH Student</div>
+      </div>
+
+      <div class="flip-card-back">
+        <h4>Annina Liebner</h4>
+        <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+      </div>
+
+    </div>
   </div>
 
-  <div class="card">
-    <h4>Aminul Apu</h4>
-    <div class="role">MPH</div>
-    <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+  <!-- Emily -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+
+      <div class="flip-card-front">
+        <img src="{{ '/assets/placeholder.png' | relative_url }}" alt="Emily photo">
+        <h4>Emily Welker</h4>
+        <div>MPH Student</div>
+      </div>
+
+      <div class="flip-card-back">
+        <h4>Emily Welker</h4>
+        <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+      </div>
+
+    </div>
   </div>
+
+  <!-- Aminul -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+
+      <div class="flip-card-front">
+        <img src="{{ '/assets/placeholder.png' | relative_url }}" alt="Aminul photo">
+        <h4>Aminul Apu</h4>
+        <div>MPH</div>
+      </div>
+
+      <div class="flip-card-back">
+        <h4>Aminul Apu</h4>
+        <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
+      </div>
+
+    </div>
+  </div>
+
 </div>
 
 ## Alumni
